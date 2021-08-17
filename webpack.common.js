@@ -8,7 +8,7 @@ const paths = require("./paths");
 
 module.exports = {
   entry: {
-    main: [paths.src + "/main.js"],
+    main: [paths.src + "/index.js"],
   },
 
   plugins: [
@@ -44,8 +44,11 @@ module.exports = {
     rules: [
       // JavaScript
       {
-        test: /\.js$/,
+        test: /\.(js|jsx)$/,
         exclude: /node_modules/,
+        resolve: {
+          extensions: [".js", ".jsx"],
+        },
         use: ["babel-loader"],
       },
       // Images
@@ -55,8 +58,8 @@ module.exports = {
           {
             loader: "file-loader",
             options: {
-              name: "[name].[hash].[ext]",
-              outputPath: "assets/",
+              name: "[name].[ext]",
+              outputPath: "assets/img",
               useRelativePaths: true,
             },
           },
