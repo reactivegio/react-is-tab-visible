@@ -23,7 +23,6 @@ const Fullscreen = () => {
     }
   };
 
-  debugger;
   /** END:: fullscreen manage*/
 
   return (
