@@ -1,8 +1,8 @@
 {
-  "name": "webpack5_from-scratch",
+  "name": "fullscreen-react_hook",
   "version": "0.0.1",
-  "description": "webpack5 from scratch",
-  "main": "src/main.js",
+  "description": "fullscreen page react hook",
+  "main": "src/index.js",
   "keywords": [],
   "author": "Di Meglio Giovanna",
   "license": "MIT",
