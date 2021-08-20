@@ -16,27 +16,7 @@ body {
   background-color: orange;
   color: #fff;
 }
-.flexyContainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+#app {
+  width: 100vw;
   height: 100vh;
-  font-size: 3em;
-  text-shadow: 1px 2px black;
-  position: relative;
-  margin: 0 auto;
-  max-width: 1940px;
-  #fullscreenIcon {
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-    > img {
-      &.compress {
-        transform: rotate(180deg);
-      }
-    }
-  }
 }

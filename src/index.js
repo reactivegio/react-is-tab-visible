@@ -1,10 +1,10 @@
 import ReactDOM from "react-dom";
 import React from "react";
-import Fullscreen from "./components/fullscreen";
+import Video from "./components/Video";
 
 import "./style.scss";
 
 const App = () => {
-  return <Fullscreen />;
+  return <Video />;
 };
 ReactDOM.render(<App />, document.getElementById("app"));
